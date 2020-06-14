@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-RUN apk add --no-cache py2-pip
+RUN apk add --no-cache py2-pip zip
 
 RUN pip install b2
 
